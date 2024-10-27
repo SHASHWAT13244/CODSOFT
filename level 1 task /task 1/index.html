@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Shashwat Khandelwal's anime-themed portfolio showcasing skills in web development, programming, and projects.">
+    <title>Portfolio website </title>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    
+    <!-- Google Fonts (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS file -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">SHASHWAT KHANDELWAL</a>
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li class="active"><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="main">
+        <div class="main-info">
+            <h1>Shashwat Khandelwal</h1>
+            <p>B.Tech CSE Student | Web Development Enthusiast</p>
+            <blockquote>
+                "Building digital experiences that inspire and engage—let's explore the web together!"
+            </blockquote>
+        </div>
+        <div class="image-wrapper">
+            <div class="image">
+                <img src="1.jfif" alt="Shashwat Khandelwal" />
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>
+            I am <span class="highlight">Shashwat Khandelwal</span>, a dedicated B.Tech CSE student currently in my third semester. I possess strong skills in programming languages such as <span class="highlight">C</span> and <span class="highlight">C++</span>, alongside expertise in web development with <span class="highlight">HTML</span> and <span class="highlight">CSS</span>. Additionally, my experience with <span class="highlight">Arduino</span> enables me to integrate hardware and software solutions effectively. I am passionate about leveraging technology to create innovative web experiences and continuously seek opportunities to expand my knowledge and skills in the ever-evolving tech landscape.
+        </p>
+    </section>
+
+    <section id="skills" class="fade-in">
+        <h2>Key Skills</h2>
+        <ul>
+            <li>Programming Languages: <span class="highlight">C</span>, <span class="highlight">C++</span>, <span class="highlight">JavaScript</span></li>
+            <li>Web Development: <span class="highlight">HTML</span>, <span class="highlight">CSS</span>, <span class="highlight">JavaScript</span></li>
+            <li>Embedded Systems: <span class="highlight">Arduino</span></li>
+            <li>Problem Solving: Strong analytical and critical thinking skills</li>
+        </ul>
+    </section>
+
+    <section id="awards" class="fade-in">
+        <h2>Awards and Honors</h2>
+        <ul>
+            <li>
+                <a href="link-to-award1-details" target="_blank">
+                    <img src="2.jfif" alt="Participation in Robowars 2024" />
+                    <span>Award Name - Robowars Participation - Year 2024</span>
+                </a>
+            </li>
+            <li>
+                <a href="link-to-award2-details" target="_blank">
+                    <img src="3.jfif" alt="First Place in Robolution 2.0 2024" />
+                    <span>Award Name - Robolution 2.0 First Place - Year 2024</span>
+                </a>
+            </li>
+            <li>
+                <a href="link-to-award3-details" target="_blank">
+                    <img src="award3.jpg" alt="Award Name 3" />
+                    <span>Award Name 3 - Year</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Voyage Vibes</h3>
+            <p>Travelling website using HTML and CSS</p>
+            <a href="https://shashwat13244.github.io/CODSOFT-Travelling-website-LANDING-PAGE-/" target="_blank">View Project</a>
+            <img src="project1-image.jpg" alt="Project 1" />
+        </div>
+        <div class="project">
+            <h3>Personal portfolio website</h3>
+            <p>Personal portfolio website using html and css</p>
+            <a href="link-to-project2" target="_blank">View Project</a>
+            <img src="project2-image.jpg" alt="Project 2" />
+        </div>
+        <div class="project">
+            <h3> Simple Calculator </h3> 
+            <p>Simple-Calculator web-application built using html css and JavaScript</p>
+                <a href="https://shashwat13244.github.io/codsoft-simple-calculator/" target="_blank">View Project</a>
+                <img src="project3-image.jpg" alt="Project 3" />
+        </div>
+    </section>
+
+    <section id="resume" class="fade-in">
+        <h2>Resume</h2>
+        <a href="Shashwat Khandelwal.pdf" download>Download My Resume</a>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <form action="your_form_handler.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Email: <a href="mailto:shashwat.khandelwal2023@ssipmt.com">shashwat.khandelwal2023@ssipmt.com</a></p>
+        <p>Phone: +91 626-033-4502</p>
+    </section>
+
+    <div class="theme-toggle">
+        <button id="toggle-button">Toggle Dark/Light Mode</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Shashwat Khandelwal. All rights reserved.</p>
+        <p>
+            <a href="https://www.linkedin.com/in/shashwat-khandelwal-a0564532b/" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/SHASHWAT13244" target="_blank">GitHub</a> | 
+            <a href="http://127.0.0.1:5500/index.html" target="_blank">Portfolio</a>
+        </p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+
+        document.getElementById('toggle-button').addEventListener('click', function() {
+            document.body.classList.toggle('light-mode');
+        });
+
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const triggerBottom = window.innerHeight / 5 * 4;
+
+            sections.forEach(section => {
+                const sectionTop = section.getBoundingClientRect().top;
+
+                if(sectionTop < triggerBottom) {
+                    section.classList.add('visible');
+                } else {
+                    section.classList.remove('visible');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

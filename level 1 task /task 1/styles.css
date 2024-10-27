@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s;
+}
+
+/* Apply a glow effect to specific elements */
+h1, h2, h3, h4, h5, .highlight, button, a {
+  box-shadow: 0 0 10px rgba(124, 240, 61, 0.8);
+}
+
+/* Enhance glow effect on hover */
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, .highlight:hover, button:hover, a:hover {
+  box-shadow: 0 0 20px rgba(124, 240, 61, 1);
+}
+
+/* General link styles with glow */
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: box-shadow 0.3s, color 0.5s;
+}
+
+/* Glow effect for links */
+a:hover {
+  box-shadow: 0 0 15px rgba(124, 240, 61, 1);
+}
+
+body {
+  background: #222;
+  color: #fff;
+}
+
+/* Highlight Effect for Text */
+.highlight {
+  background-color: rgba(124, 240, 61, 0.3);
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  background: rgba(34, 34, 34, 0.8); /* Add a background to navbar */
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 35px;
+}
+
+ul li a {
+  font-size: 20px;
+  font-weight: 500;
+  transition: color 0.5s;
+}
+
+ul li:hover a,
+ul li.active a {
+  color: #7cf03d;
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background: #222;
+    width: 100%;
+    top: 60px; /* Adjust based on your navbar height */
+    left: 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+/* Main Section */
+.main {
+  height: 100vh;
+  padding: 100px 9% 0;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.main-info {
+  max-width: 500px;
+}
+
+.main-info h1 {
+  font-size: 55px;
+}
+
+.main-info p {
+  font-size: 24px;
+}
+
+blockquote {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 10px;
+  color: #7cf03d;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 32vw;
+  height: 32vw;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #1f242d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.image img {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+}
+
+/* About Section */
+#about {
+  padding: 50px 9%;
+}
+
+/* Skills Section */
+#skills {
+  padding: 50px 9%;
+}
+
+#skills ul {
+  list-style-type: none;
+}
+
+/* Projects Section */
+#projects {
+  padding: 50px 9%;
+}
+
+.project {
+  margin-bottom: 20px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 15px;
+  transition: transform 0.3s;
+}
+
+.project:hover {
+  transform: scale(1.02);
+}
+
+.project img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #7cf03d;
+  text-decoration: underline;
+}
+
+/* Resume Section */
+#resume {
+  padding: 50px 9%;
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px 9%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background: #7cf03d;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background: #6abf2d;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(124, 240, 61, 1);
+}
+
+/* Theme Toggle */
+body.light-mode {
+  background: #fff;
+  color: #000;
+}
+
+body.light-mode .navbar {
+  background: #f1f1f1;
+}
+
+body.light-mode .highlight {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Fade-in effect for sections */
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+    #about, #skills, #projects, #resume, #contact {
+        text-align: center;
+    }
+}
