@@ -1,41 +1,31 @@
-# CODSOFT
-for my virtual internship at codsoft . 
-I have completed tasks given for my internship as a Web Developer in CodSoft . 
-Acknowledgements I would like to extend my heartfelt thanks to :-
+Acknowledgements
+I would like to extend my heartfelt thanks to the CodSoft team for providing me with the opportunity to intern and gain valuable hands-on experience in web development. Your guidance and support have been instrumental in my learning journey.
 
-Codsoft Team: For providing me with the opportunity to intern and gain valuable hands-on experience in WEB development. Your guidance and support have been instrumental in my learning journey.
+Completed Tasks
+Level 1 Task 1: Personal Portfolio
+I created a personal portfolio using HTML and CSS, which included the following sections:
 
-LEVEL 1 TASK 1 :- 
-Creating a personal portfolio using CSS and HTML is a popular beginner web development
-project.
-Header Section: Add your name or a logo at the top.
-Optionally, include a brief introduction or tagline.
-About Section: Insert an image of yourself.
-Write a short bio highlighting your skills and experience.
-Skills Section: List your key skills or areas of expertise.
-Projects Section: Showcase samples of your work or projects.
-Include project titles, descriptions, and images.
-Resume Section: Provide a link to download your resume in PDF format.
-Contact Section: Include your contact information, such as email address and phone
-number.
-Footer: Add a copyright notice and any additional links or information.
+Header Section: Featured my name and a brief tagline.
+About Section: Included an image of myself and a short bio highlighting my skills and experience.
+Skills Section: Listed my key skills and areas of expertise.
+Projects Section: Showcased samples of my work with titles, descriptions, and images.
+Resume Section: Provided a link to download my resume in PDF format.
+Contact Section: Included my contact information.
+Footer: Added a copyright notice and additional links.
+Level 1 Task 2: Landing Page
+I designed a landing page to enhance my HTML and CSS skills. This project focused on:
 
-LEVEL 1 TASK 2 :-
-A landing page is an ideal web development project for beginners. It requires basic
-knowledge of HTML and CSS. Through this project, you'll learn to create columns, divide
-sections, arrange items, and add headers and footers. The most important aspect is
-unleashing your creativity to design an impressive page. Pay attention to alignments,
-padding, color palette, boxes, and other elements. Be mindful of CSS to avoid overlapping
-elements. In short, a landing page project allows you to apply HTML and CSS skills,
-encouraging your creativity while ensuring a visually appealing and user-friendly design.
+Creating columns and dividing sections.
+Arranging items with headers and footers.
+Applying a thoughtful color palette and ensuring proper alignment and padding.
+Utilizing CSS to maintain a visually appealing and user-friendly design.
+Level 1 Task 3: Basic Calculator
+I developed a basic calculator using HTML, CSS, and JavaScript, implementing:
 
-LEVEL 1 TASK 3 :-
-To create a basic calculator using CSS, HTML, and JavaScript, you'll need to implement an
-interactive interface with buttons for addition, subtraction, multiplication, and division
-operations. The calculator should have a display screen to show user input and results. Utilize
-CSS grid system for button alignments. Use event listeners, if-else statements, operators, and
-loops to handle user input and perform calculations. This project requires some skill but can be
-done with basic knowledge of these technologies..
+An interactive interface with buttons for basic arithmetic operations.
+A display screen for user input and results.
+A CSS grid system for button alignment.
+JavaScript functionality using event listeners and conditional statements to perform calculations.
 
 
 
