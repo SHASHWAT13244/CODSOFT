@@ -1,6 +1,9 @@
 # CODSOFT
 for my virtual internship at codsoft . 
 I have completed tasks given for my internship as a Web Developer in CodSoft . 
+Acknowledgements I would like to extend my heartfelt thanks to the following individuals and organizations:
+
+Codsoft Team: For providing me with the opportunity to intern and gain valuable hands-on experience in WEB development. Your guidance and support have been instrumental in my learning journey.
 
 LEVEL 1 TASK 1 :- 
 Creating a personal portfolio using CSS and HTML is a popular beginner web development
